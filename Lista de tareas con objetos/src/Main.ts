@@ -12,8 +12,7 @@ function main (): void {
 
     let opcion : number = 0;
     let tareas : Tareas[] = []
-
-    // al tener "strictNullChecks": true necesito si o si iniciar tarea para usarla, el poner | me permite dejarla en null temporalmente
+    
 
     let tarea: Tareas | null = null;
 
@@ -63,5 +62,6 @@ function main (): void {
         }
     }while (opcion != 0);
 }
+
 
 main();
